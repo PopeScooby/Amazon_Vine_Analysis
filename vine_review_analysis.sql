@@ -27,6 +27,7 @@ FROM Deliverable2_S02_HelpfulPct WHERE vine = 'N';
 SELECT Count_TotalReviews, Count_All5Star, 
 		Count_Vine5Star, Cast(Count_Vine5Star / Count_All5Star as numeric(10,4)) as Pct_Vine5Star, 
 		Count_NonVine5Star, cast(Count_NonVine5Star / Count_All5Star as numeric(10,4)) as Pct_NonVine5Star
+INTO	Deliverable2_S05_Analysis
 FROM (
 	SELECT COUNT(review_id) as Count_TotalReviews
 	FROM Deliverable2_S02_HelpfulPct
