@@ -5,7 +5,7 @@
 
 ## Results
 
-### In order to determine whether if a bias toward 5 star reviews exists for Vine participents we first limited the review data to reviews with 20 or more votes, and where 50% or more of the votes were helpful. Then we calculated the number of reviews from Vine members and the percentage that were five stars, as well as the number of Non-Vine reviews and what percentage of those were five stars. Below, you will find those calculations and their results.
+### In order to determine whether a bias toward 5 star reviews exists for Vine participents we first limited the review data to reviews with 20 or more votes, and where 50% or more of the votes were helpful. Then we calculated the number of reviews from Vine members and the percentage that were five stars, as well as the number of Non-Vine reviews and what percentage of those were five stars. Below, you will find those calculations and their results.
 ![queries](sql.png)
 ![results](step5table.png)
  - There were only 3 Vine reviews for video games, and 2375 Non-Vine reviews.
